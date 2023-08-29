@@ -1,0 +1,24 @@
+body {
+    background-color: #181818;
+    color: #ffe89d;
+    text-align: center;
+}
+
+p,
+h3 {
+    font-family: Tahoma, sans-serif;
+}
+
+.page-title {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 90px;
+}
+
+img {
+    border-radius: 5%;
+}
+
+a {
+    color: #fff8e2;
+    font-size: 18px;
+}
