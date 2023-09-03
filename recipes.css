@@ -69,6 +69,12 @@ ul > li {
     margin: 10px 0px;
     padding-left: 0px;
 }
+
+/*Recipe-ingredients*/
+.recipe-ingredients {
+    display: inline-block;
+}
+
 /*Method list*/
 ol {
     /*With the first instruction you put the li marker inside the h3*/
