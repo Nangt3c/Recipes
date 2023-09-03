@@ -1,5 +1,6 @@
 body {
-    background-color: #181818;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.88)), url(./resources/background.jpeg);
+    background-size: cover;
     color: #ffe89d;
     text-align: center;
     margin-bottom: 70px;
@@ -78,7 +79,7 @@ ul > li {
 /*Method list*/
 ol {
     /*With the first instruction you put the li marker inside the h3*/
-    list-style-position: initial;
+    list-style-position: inside;
     background-color: #131313;
     margin: 0px 300px;
     padding: 5px 50px;
