@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.88)), url(./resources/background.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.89), rgba(0, 0, 0, 0.89)), url(./resources/background.jpeg);
     background-size: cover;
     color: #ffe89d;
     text-align: center;
@@ -30,7 +30,7 @@ h1 {
     padding: 7px;
 }
 
-/*Recipe sections*/
+/*Recipe section title*/
 h2 {
     font-size: 28px;
 }
@@ -117,7 +117,7 @@ a {
     border-radius: 6px;
 }
 
-/*Made by - Legend link*/
+/*Made by - link*/
 .fixed a {
     display: inline;
 }

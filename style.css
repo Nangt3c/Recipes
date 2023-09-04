@@ -1,6 +1,5 @@
-/*Fondo de la pagina*/
 body {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.88), rgba(0, 0, 0, 0.88)), url(./resources/background.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.90), rgba(0, 0, 0, 0.90)), url(./resources/background.jpeg);
     background-size: cover;
     color: #ffe89d;
     text-align: center;
@@ -73,3 +72,7 @@ a {
     box-shadow: 0px 0px 10px 1px #ffe89d;
     border-radius: 6px;
 }
+
+ .fixed > p {
+    margin: 11px 0;
+ }
