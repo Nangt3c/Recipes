@@ -48,7 +48,7 @@ h3 {
 
 ul {
     padding: 0px;
-    list-style-position: inside;
+    list-style-type: none;
 }
 
 img {
@@ -73,6 +73,22 @@ a {
     border-radius: 6px;
 }
 
- .fixed > p {
-    margin: 11px 0;
- }
+.fixed {
+    font-size: 19px;
+    position: fixed;
+    bottom: 7px;
+    left: 7px;
+    padding: 2px 6px;
+    background-color: #0e0e0e;
+    box-shadow: 0px 0px 10px 1px #ffe89d;
+    border-radius: 6px;
+}
+
+.fixed > p {
+    margin: 14px 0;
+}
+
+/*Made by - link*/
+.fixed a {
+    display: inline;
+}

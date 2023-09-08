@@ -19,6 +19,11 @@ img {
     margin-bottom: 10px;
 }
 
+/*Recipe section title*/
+h2 {
+    font-size: 28px;
+}
+
 /*Recipe title*/
 h1 {
     background-color: #0e0e0e;
@@ -30,50 +35,70 @@ h1 {
     padding: 7px;
 }
 
-/*Recipe section title*/
-h2 {
-    font-size: 28px;
+/*recipe-info*/
+.summary {
+    display: flex;
+    justify-content: center;
 }
 
-/*recipe-info*/
-.recipe-info {
+.recipe-card {
+    justify-content: space-around;
+    width: 1100px;
+    display: flex;
     background-color: #131313;
     box-shadow: 0px 0px 5px 0px #ffe89d inset;
     border: 4px solid;
     border-radius: 50px;
-    max-width: 785px;
-    margin: 30px auto;
+    padding: 27px 12px;
 }
 
-.recipe-info-sec {
-    display: inline-block;
-    margin: 20px 20px;
+.card-L {
+    display:flex;
+    align-items: center;
 }
 
-.recipe-info h4 {
-    margin: 0px;
+/*Ingredients h2*/
+.card-L h2 {
+    margin-top: 0px;
+    margin-bottom: 25px;
     font-size: 25px;
-    font-family: Tahoma, sans-serif;
-    font-weight: 750;
 }
 
-.recipe-info p {
-    margin-bottom: 0px;
-    text-align: left;
-    font-size: 19px;
-    color: white;
-}
-
-/*Ingredients list*/
-ul,
-ul > li {
-    margin: 10px 0px;
+.recipe-ingredients > ul {
+    text-align: initial;
+    list-style-type: disclosure-closed;
+    list-style-position: inside;
     padding-left: 0px;
 }
 
-/*Recipe-ingredients*/
-.recipe-ingredients {
-    display: inline-block;
+.recipe-ingredients li {
+    margin-bottom: 5px;
+    color: #f7ecca;
+}
+
+.card-R img {
+    border-radius: 7px;
+}
+
+.recipe-time {
+    display: flex;
+    gap: 25px;
+}
+
+.recipe-time h4 {
+    margin: 0px;
+    font-size: 24px;
+    font-family: Tahoma, sans-serif;
+    font-weight: 750;
+    font-size: 24px;
+    text-align: left;
+}
+
+.recipe-time p {
+    text-align: left;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 0px;
 }
 
 /*Method list*/
@@ -111,10 +136,14 @@ a {
     position: fixed;
     bottom: 7px;
     left: 7px;
-    padding: 3px 6px;
+    padding: 2px 6px;
     background-color: #0e0e0e;
     box-shadow: 0px 0px 10px 1px #ffe89d;
     border-radius: 6px;
+}
+
+.fixed > p {
+    margin: 14px 0;
 }
 
 /*Made by - link*/
